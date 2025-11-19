@@ -1,329 +1,327 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Food Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav id="navbar">
-            <i class="fa-solid fa-burger" id="nav_logo"> FOOD</i>
+      <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav_logo"> FOOD</i>
 
-            <ul id="nav_list">
-                <li class="nav-item active">
-                    <a href="#home">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
-                </li>
-            </ul>
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+        <button class="btn-default">Peça aqui</button>
 
-            <button id="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
 
-        <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item">
-                    <a href="#home">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
-                </li>
-            </ul>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
-        </div>
+        <button class="btn-default">Peça aqui</button>
+      </div>
     </header>
 
     <main id="content">
-        <section id="home">
-            <div class="shape"></div>
-            <div id="cta">
-                <h1 class="title">
-                    O sabor que vai até
-                    <span>você</span>
-                </h1>
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            O sabor que vai até
+            <span>você</span>
+          </h1>
 
-                <p class="description">
-                    Oferecemos uma variedade de opções de comida deliciosa.
+          <p class="description">
+            Oferecemos uma variedade de opções de comida deliciosa.
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#" class="btn-default"> Ver cardápio </a>
+
+            <a href="tel:+5562998579084" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (62) 99857-9084
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="src/images/hero.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h2 class="section-subtitle">Nossos pratos especiais</h2>
+
+        <div id="dishes">
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Churrasco</h3>
+
+            <span class="dish-description"> Um delicioso churrasco </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$ 45,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish2.jfif" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Strogonoff de Frango</h3>
+
+            <span class="dish-description">
+              Um delicioso strogonoff de frango com arroz
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$ 40,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish3.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Salada</h3>
+
+            <span class="dish-description">
+              Uma salada de kiwi, morango e castanhas
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$ 40,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish4.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Lasanha</h3>
+
+            <span class="dish-description">
+              Uma deliciosa lasanha com presunto, carne e queijo
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$ 40,00</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <img src="src/images/chef.png" id="testimonial_chef" alt="" />
+
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img
+                src="src/images/pessoa1.avif"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Carlos Silva
+
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
                 </p>
-
-                <div id="cta_buttons">
-                    <a href="#" class="btn-default">
-                        Ver cardápio
-                    </a>
-
-                    <a href="tel:+5562998579084" id="phone_button">
-                        <button class="btn-default">
-                            <i class="fa-solid fa-phone"></i>
-                        </button>
-                        (62) 99857-9084
-                    </a>
-                </div>
-
-                <div class="social-media-buttons">
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div>
+                <p>
+                  "Os pratos que experimentei do Restaurante são simplesmente
+                  excepcionais! Cada prato é preparado com ingredientes frescos
+                  e de alta qualidade, refletindo um cuidado especial na
+                  apresentação e no sabor."
+                </p>
+              </div>
             </div>
 
-            <div id="banner">
-                <img src="src/images/hero.png" alt="">
+            <div class="feedback">
+              <img
+                src="src/images/pessoa2.jfif"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Ana Clara
+
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Há algum tempo que frequento o restaurante e minha
+                  experiência tem sido excepcional. O ambiente é acolhedor e
+                  descontraído, perfeito para um almoço rápido ou um jantar
+                  relaxante."
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <section id="menu">
-            <h2 class="section-title">Cardápio</h2>
-            <h2 class="section-subtitle">Nossos pratos especiais</h2>
-
-            <div id="dishes">
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish.png" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Churrasco
-                    </h3>
-                    
-                    <span class="dish-description">
-                        Um delicioso churrasco
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$ 45,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish2.jfif" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Strogonoff de Frango
-                    </h3>
-                    
-                    <span class="dish-description">
-                        Um delicioso strogonoff de frango com arroz
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$ 40,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish3.png" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Salada
-                    </h3>
-                    
-                    <span class="dish-description">
-                        Uma salada de kiwi, morango e castanhas
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$ 40,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish4.png" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lasanha
-                    </h3>
-                    
-                    <span class="dish-description">
-                        Uma deliciosa lasanha com presunto, carne e queijo
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$ 40,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <img src="src/images/chef.png" id="testimonial_chef" alt="">
-
-            <div id="testimonials_content">
-                <h2 class="section-title">
-                    Depoimentos
-                </h2>
-                <h3 class="section-subtitle">
-                    O que os clientes falam sobre nós
-                </h3>
-
-                <div id="feedbacks">
-                    <div class="feedback">
-                        <img src="src/images/pessoa1.avif" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Carlos Silva
-
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Os pratos que experimentei do Restaurante são simplesmente excepcionais!
-                                Cada prato é preparado com ingredientes frescos e de alta qualidade, refletindo um cuidado especial na apresentação e no sabor."
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="feedback">
-                        <img src="src/images/pessoa2.jfif" class="feedback-avatar" alt="">
-
-                        <div class="feedback-content">
-                            <p>
-                                Ana Clara
-
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Há algum tempo que frequento o restaurante e minha experiência tem sido excepcional.
-                                O ambiente é acolhedor e descontraído, perfeito para um almoço rápido ou um jantar relaxante."
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <button class="btn-default">
-                    Ver mais Avaliações
-                </button>
-            </div>
-        </section>
+          <button class="btn-default">Ver mais Avaliações</button>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <img src="src/images/wave.svg" alt="">
+      <img src="src/images/wave.svg" alt="" />
 
-        <div id="footer-items">
-            <span class="copyright">
-                &copy 2025 Emerson Sabino
-            </span>
+      <div id="footer-items">
+        <span class="copyright"> &copy 2025 Edson Emanoel </span>
 
-            <div class="social-media-buttons">
-                <a href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
 
-                <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
 
-                <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
-
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
         </div>
+      </div>
     </footer>
     <script src="src/javascript/script.js"></script>
-</body>
+  </body>
 </html>
